@@ -1,0 +1,35 @@
+═══════════════════════════════════════════════════════
+                   WALMART LATAM                       
+                 FACTURA ELECTRONICA                   
+═══════════════════════════════════════════════════════
+
+Numero de Factura: FAC-20260329_004729
+Fecha: 2026-03-29 00:47:29
+Cliente: Isidro
+Correo: marroquin9953@gmail.com
+
+───────────────────────────────────────────────────────
+DETALLE DE PRODUCTOS
+───────────────────────────────────────────────────────
+
+Caminadora Proform
+  Cantidad: 3 x $524,25
+  Subtotal: $1572,75
+
+Samsung Galaxy S24 Ultra
+  Cantidad: 1 x $1599,00
+  Subtotal: $1599,00
+
+Cama Indufoam
+  Cantidad: 3 x $309,00
+  Subtotal: $927,00
+
+───────────────────────────────────────────────────────
+Subtotal:        $4098,75
+IVA (13%):       $532,84
+═══════════════════════════════════════════════════════
+TOTAL:           $4631,59
+═══════════════════════════════════════════════════════
+
+Gracias por su compra en Walmart Latam
+

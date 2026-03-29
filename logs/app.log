@@ -1,0 +1,190 @@
+[2026-03-29 00:04:25] [INFO] - === Iniciando aplicación de Carrito de Compras ===
+[2026-03-29 00:04:25] [INFO] - Archivo de configuración de correo creado: config/mail.properties
+[2026-03-29 00:04:25] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:04:25] [INFO] - Inventario inicial creado y guardado
+[2026-03-29 00:04:25] [INFO] - Aplicación iniciada correctamente
+[2026-03-29 00:04:48] [DEBUG] - Opción seleccionada: 1
+[2026-03-29 00:05:17] [ERROR] - Cantidad excede disponible: 1 > 0 para Maleta de mano
+[2026-03-29 00:05:30] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:05:44] [DEBUG] - Opción seleccionada: 1
+[2026-03-29 00:05:54] [DEBUG] - Producto agregado al carrito: Caminadora Proform x5
+[2026-03-29 00:05:54] [INFO] - Producto agregado al carrito: Caminadora Proform x5
+[2026-03-29 00:07:10] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:07:19] [DEBUG] - Opción seleccionada: 4
+[2026-03-29 00:08:18] [INFO] - Inventario actualizado: Caminadora Proform - Nuevo stock: 4
+[2026-03-29 00:08:18] [INFO] - Factura guardada: FAC-20260329_000818
+[2026-03-29 00:08:18] [INFO] - Compra guardada en historial: FAC-20260329_000818
+[2026-03-29 00:08:23] [ERROR] - Error al enviar correo - AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-56d589fcfcfsm4556107e0c.10 - gsmtp
+
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-56d589fcfcfsm4556107e0c.10 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.example.ServicioCorreo.enviarFactura(ServicioCorreo.kt:111)
+	at org.example.Menu.printFactura(Menu.kt:198)
+	at org.example.Menu$4.invoke(Menu.kt:20)
+	at org.example.Menu$4.invoke(Menu.kt:20)
+	at org.example.AppKt.main(App.kt:105)
+	at org.example.AppKt.main(App.kt)
+
+[2026-03-29 00:08:23] [INFO] - Compra completada - Factura: FAC-20260329_000818
+[2026-03-29 00:08:44] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:23:15] [DEBUG] - Opción seleccionada: 4
+[2026-03-29 00:23:15] [ERROR] - Intento de operación con carrito vacío
+[2026-03-29 00:23:25] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:31:11] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 00:31:11] [INFO] - Inventario cargado exitosamente: 4 productos
+[2026-03-29 00:31:34] [INFO] - Cliente registrado: Isidro Marroquin - marroquin9953@gmail.com
+[2026-03-29 00:31:46] [DEBUG] - Opcion seleccionada: 1
+[2026-03-29 00:32:01] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:32:04] [DEBUG] - Opcion seleccionada: 1
+[2026-03-29 00:32:13] [DEBUG] - Producto agregado al carrito: Caminadora Proform x2
+[2026-03-29 00:32:13] [INFO] - Producto agregado al carrito: Caminadora Proform x2
+[2026-03-29 00:34:47] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 00:34:47] [INFO] - Inventario cargado exitosamente: 4 productos
+[2026-03-29 00:35:33] [ERROR] - Formato de email inválido: s
+[2026-03-29 00:35:41] [ERROR] - Formato de email inválido: ss@ssas,com
+[2026-03-29 00:35:52] [INFO] - Cliente registrado: ll - sasass@sdsd.com
+[2026-03-29 00:36:00] [DEBUG] - Opcion seleccionada: 3
+[2026-03-29 00:36:06] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:36:07] [DEBUG] - Opcion seleccionada: 1
+[2026-03-29 00:36:16] [DEBUG] - Producto agregado al carrito: Samsung Galaxy S24 Ultra x1
+[2026-03-29 00:36:16] [INFO] - Producto agregado al carrito: Samsung Galaxy S24 Ultra x1
+[2026-03-29 00:36:20] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:36:24] [DEBUG] - Opcion seleccionada: 1
+[2026-03-29 00:36:36] [DEBUG] - Producto agregado al carrito: Cama Indufoam x2
+[2026-03-29 00:36:36] [INFO] - Producto agregado al carrito: Cama Indufoam x2
+[2026-03-29 00:36:43] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:46:23] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 00:46:23] [INFO] - Inventario cargado exitosamente: 4 productos
+[2026-03-29 00:46:35] [INFO] - Cliente registrado: Isidro - marroquin9953@gmail.com
+[2026-03-29 00:46:58] [DEBUG] - Producto agregado al carrito: Caminadora Proform x3
+[2026-03-29 00:46:58] [INFO] - Producto agregado: Caminadora Proform x3
+[2026-03-29 00:47:10] [DEBUG] - Producto agregado al carrito: Samsung Galaxy S24 Ultra x1
+[2026-03-29 00:47:10] [INFO] - Producto agregado: Samsung Galaxy S24 Ultra x1
+[2026-03-29 00:47:19] [DEBUG] - Producto agregado al carrito: Cama Indufoam x3
+[2026-03-29 00:47:19] [INFO] - Producto agregado: Cama Indufoam x3
+[2026-03-29 00:47:29] [INFO] - Compra confirmada por el usuario
+[2026-03-29 00:47:29] [INFO] - Inventario actualizado: Caminadora Proform - Nuevo stock: 1
+[2026-03-29 00:47:29] [INFO] - Inventario actualizado: Samsung Galaxy S24 Ultra - Nuevo stock: 0
+[2026-03-29 00:47:29] [INFO] - Inventario actualizado: Cama Indufoam - Nuevo stock: 0
+[2026-03-29 00:47:29] [INFO] - Factura guardada: FAC-20260329_004729
+[2026-03-29 00:47:29] [INFO] - Compra guardada en historial: FAC-20260329_004729
+[2026-03-29 00:47:30] [INFO] - Factura PDF generada: C:\Users\Alexa\Downloads\dsm_proyecto_1-main\dsm_proyecto_1-main\facturas\FAC-20260329_004729.pdf
+[2026-03-29 00:47:32] [ERROR] - Error al enviar correo - AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-56d589fcfcfsm4630880e0c.10 - gsmtp
+
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials 71dfb90a1353d-56d589fcfcfsm4630880e0c.10 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.example.ServicioCorreo.enviarFactura(ServicioCorreo.kt:111)
+	at org.example.AppKt.procesarCompra(App.kt:279)
+	at org.example.AppKt.main(App.kt:396)
+	at org.example.AppKt.main(App.kt)
+
+[2026-03-29 00:47:32] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:47:32] [INFO] - Compra completada - Factura: FAC-20260329_004729
+[2026-03-29 00:48:48] [DEBUG] - Producto agregado al carrito: Caminadora Proform x1
+[2026-03-29 00:48:48] [INFO] - Producto agregado: Caminadora Proform x1
+[2026-03-29 00:48:56] [DEBUG] - Cantidad actualizada en carrito: Caminadora Proform - Total: 2
+[2026-03-29 00:48:56] [INFO] - Producto agregado: Caminadora Proform x1
+[2026-03-29 00:49:07] [INFO] - Compra confirmada por el usuario
+[2026-03-29 00:49:07] [ERROR] - Error de stock - StockInsuficienteException: Stock insuficiente para Caminadora Proform
+org.example.StockInsuficienteException: Stock insuficiente para Caminadora Proform
+	at org.example.AppKt.procesarCompra(App.kt:243)
+	at org.example.AppKt.main(App.kt:396)
+	at org.example.AppKt.main(App.kt)
+
+[2026-03-29 00:49:14] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:49:14] [INFO] - === Sistema finalizado ===
+[2026-03-29 00:57:22] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 00:57:22] [INFO] - Inventario cargado exitosamente: 4 productos
+[2026-03-29 00:57:40] [INFO] - Cliente registrado: Marro - marroquin9953@gmail.com
+[2026-03-29 00:58:07] [DEBUG] - Producto agregado al carrito: Caminadora Proform x1
+[2026-03-29 00:58:07] [INFO] - Producto agregado: Caminadora Proform x1
+[2026-03-29 00:58:20] [INFO] - Compra confirmada por el usuario
+[2026-03-29 00:58:20] [INFO] - Inventario actualizado: Caminadora Proform - Nuevo stock: 0
+[2026-03-29 00:58:20] [INFO] - Factura guardada: FAC-20260329_005820
+[2026-03-29 00:58:20] [INFO] - Compra guardada en historial: FAC-20260329_005820
+[2026-03-29 00:58:20] [INFO] - Factura PDF generada: C:\Users\Alexa\Downloads\dsm_proyecto_1-main\dsm_proyecto_1-main\facturas\FAC-20260329_005820.pdf
+[2026-03-29 00:58:22] [ERROR] - Error al enviar correo - AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a1e0cc1a2514c-9539e259bc9sm3786779241.2 - gsmtp
+
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a1e0cc1a2514c-9539e259bc9sm3786779241.2 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.example.ServicioCorreo.enviarFactura(ServicioCorreo.kt:111)
+	at org.example.AppKt.procesarCompra(App.kt:283)
+	at org.example.AppKt.main(App.kt:395)
+	at org.example.AppKt.main(App.kt)
+
+[2026-03-29 00:58:22] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:58:22] [INFO] - Compra completada - Factura: FAC-20260329_005820 - Carrito limpiado
+[2026-03-29 00:58:41] [INFO] - Inventario guardado exitosamente: 4 productos
+[2026-03-29 00:58:41] [INFO] - === Sistema finalizado ===
+[2026-03-29 01:02:59] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 01:03:00] [INFO] - Inventario cargado exitosamente: 5 productos
+[2026-03-29 01:03:16] [INFO] - Cliente registrado: Nayeli - nayeli9953@gmail.com
+[2026-03-29 01:05:28] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 01:05:28] [INFO] - Inventario cargado exitosamente: 5 productos
+[2026-03-29 01:05:37] [INFO] - Cliente registrado: isidro - isidro@gmail.com
+[2026-03-29 01:13:28] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 01:13:29] [INFO] - Inventario cargado exitosamente: 5 productos
+[2026-03-29 01:13:39] [INFO] - Cliente registrado: isidro - isidro@gmail.com
+[2026-03-29 01:15:32] [INFO] - === Iniciando Walmart Latam - Sistema de Compras ===
+[2026-03-29 01:15:33] [INFO] - Inventario cargado exitosamente: 5 productos
+[2026-03-29 01:15:45] [INFO] - Cliente registrado: Marroquin - Isidro@gmail.com
+[2026-03-29 01:16:03] [DEBUG] - Producto agregado al carrito: Televisor Onn. 50" 4K UHD LED Roku Smart TV x1
+[2026-03-29 01:16:03] [INFO] - Producto agregado: Televisor Onn. 50" 4K UHD LED Roku Smart TV x1
+[2026-03-29 01:16:09] [INFO] - Compra confirmada por el usuario
+[2026-03-29 01:16:09] [INFO] - Inventario actualizado: Televisor Onn. 50" 4K UHD LED Roku Smart TV - Nuevo stock: 14
+[2026-03-29 01:16:09] [INFO] - Factura guardada: FAC-20260329_011609
+[2026-03-29 01:16:09] [INFO] - Compra guardada en historial: FAC-20260329_011609
+[2026-03-29 01:16:09] [INFO] - Factura PDF generada: C:\Users\Alexa\Downloads\dsm_proyecto_1-main\dsm_proyecto_1-main\facturas\FAC-20260329_011609.pdf
+[2026-03-29 01:16:11] [ERROR] - Error al enviar correo - AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ada2fe7eead31-60512e693aesm4739422137.12 - gsmtp
+
+javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. For more information, go to
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials ada2fe7eead31-60512e693aesm4739422137.12 - gsmtp
+
+	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
+	at com.sun.mail.smtp.SMTPTransport.authenticate(SMTPTransport.java:876)
+	at com.sun.mail.smtp.SMTPTransport.protocolConnect(SMTPTransport.java:780)
+	at javax.mail.Service.connect(Service.java:388)
+	at javax.mail.Service.connect(Service.java:246)
+	at javax.mail.Service.connect(Service.java:195)
+	at javax.mail.Transport.send0(Transport.java:254)
+	at javax.mail.Transport.send(Transport.java:124)
+	at org.example.ServicioCorreo.enviarFactura(ServicioCorreo.kt:111)
+	at org.example.AppKt.procesarCompra(App.kt:286)
+	at org.example.AppKt.main(App.kt:398)
+	at org.example.AppKt.main(App.kt)
+
+[2026-03-29 01:16:11] [INFO] - Inventario guardado exitosamente: 5 productos
+[2026-03-29 01:16:11] [INFO] - Compra completada - Factura: FAC-20260329_011609 - Carrito limpiado
+[2026-03-29 01:21:49] [DEBUG] - Producto agregado al carrito: Televisor Onn. 50" 4K UHD LED Roku Smart TV x1
+[2026-03-29 01:21:49] [INFO] - Producto agregado: Televisor Onn. 50" 4K UHD LED Roku Smart TV x1
