@@ -4,8 +4,10 @@
 
 **Universidad:** Universidad Don Bosco  
 **Materia:** Desarrollo de Software para Móviles (DSM941)  
-**Proyecto:** Proyecto 1 de Cátedra  
-**Estudiante:** Isidro Alexander Marroquín Echeverría  
+**Proyecto:** Proyecto 1 de Cátedra
+**Grupo:** #3 
+**Estudiante:** Isidro Alexander Marroquín Echeverría
+**Carne:** ME221443  
 **Fecha:** Marzo 2026
 
 ## Descripción
@@ -164,7 +166,7 @@ Define excepciones personalizadas para manejo de errores específicos del domini
 ### 1. Clonar o descargar el proyecto
 
 ```bash
-git clone <url-del-repositorio>
+git clone <https://github.com/marroquin9953/Proyecto-1---DSM941.git>
 cd proyecto_1
 ```
 
@@ -393,7 +395,9 @@ Verificar permisos de escritura en la carpeta `data/`.
 
 ## Contacto
 
-**Estudiante:** Isidro Alexander Marroquín Echeverría  
+**Estudiante:** Isidro Alexander Marroquín Echeverría
+**Carne:** ME221443
+**Grupo:** #3 
 **Universidad:** Universidad Don Bosco  
 **Materia:** DSM941 - Desarrollo de Software para Móviles
 
