@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Televisor Onn. 50\" 4K UHD LED Roku Smart TV",
+    "precio": 248.0,
+    "cantidadDisponible": 14
+  },
+  {
+    "id": 2,
+    "nombre": "Cafetera Keurig K-Express Essentials",
+    "precio": 59.0,
+    "cantidadDisponible": 42
+  },
+  {
+    "id": 3,
+    "nombre": "Laptop HP 15.6\" Intel Core i3 8GB RAM",
+    "precio": 329.0,
+    "cantidadDisponible": 8
+  },
+  {
+    "id": 4,
+    "nombre": "Set de Contenedores Mainstays (10 piezas)",
+    "precio": 12.5,
+    "cantidadDisponible": 120
+  },
+  {
+    "id": 5,
+    "nombre": "Air Fryer Ninja Foodi 6-in-1",
+    "precio": 169.99,
+    "cantidadDisponible": 15
+  }
+]

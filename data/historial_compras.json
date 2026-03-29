@@ -1,0 +1,87 @@
+[
+  {
+    "numeroFactura": "FAC-20260329_000818",
+    "fecha": "2026-03-29 00:08:18",
+    "emailCliente": "marroquin9953@gmail.com",
+    "productos": [
+      {
+        "id": 2,
+        "nombre": "Caminadora Proform",
+        "precio": 524.25,
+        "cantidad": 5,
+        "subtotal": 2621.25
+      }
+    ],
+    "subtotal": 2621.25,
+    "iva": 340.7625,
+    "total": 2962.0125
+  },
+  {
+    "numeroFactura": "FAC-20260329_004729",
+    "fecha": "2026-03-29 00:47:29",
+    "nombreCliente": "Isidro",
+    "emailCliente": "marroquin9953@gmail.com",
+    "productos": [
+      {
+        "id": 2,
+        "nombre": "Caminadora Proform",
+        "precio": 524.25,
+        "cantidad": 3,
+        "subtotal": 1572.75
+      },
+      {
+        "id": 3,
+        "nombre": "Samsung Galaxy S24 Ultra",
+        "precio": 1599.0,
+        "cantidad": 1,
+        "subtotal": 1599.0
+      },
+      {
+        "id": 4,
+        "nombre": "Cama Indufoam",
+        "precio": 309.0,
+        "cantidad": 3,
+        "subtotal": 927.0
+      }
+    ],
+    "subtotal": 4098.75,
+    "iva": 532.8375,
+    "total": 4631.5875
+  },
+  {
+    "numeroFactura": "FAC-20260329_005820",
+    "fecha": "2026-03-29 00:58:20",
+    "nombreCliente": "Marro",
+    "emailCliente": "marroquin9953@gmail.com",
+    "productos": [
+      {
+        "id": 2,
+        "nombre": "Caminadora Proform",
+        "precio": 524.25,
+        "cantidad": 1,
+        "subtotal": 524.25
+      }
+    ],
+    "subtotal": 524.25,
+    "iva": 68.1525,
+    "total": 592.4025
+  },
+  {
+    "numeroFactura": "FAC-20260329_011609",
+    "fecha": "2026-03-29 01:16:09",
+    "nombreCliente": "Marroquin",
+    "emailCliente": "Isidro@gmail.com",
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Televisor Onn. 50\" 4K UHD LED Roku Smart TV",
+        "precio": 248.0,
+        "cantidad": 1,
+        "subtotal": 248.0
+      }
+    ],
+    "subtotal": 248.0,
+    "iva": 32.24,
+    "total": 280.24
+  }
+]
